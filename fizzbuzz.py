@@ -11,9 +11,9 @@ for i in range(1,100+1):
     elif i%3 ==0:
 
         print("fizz")
-    elif i%7 ==0:
+    elif i%5 ==0:
         print("buzz")
 
     else:
-        print("i")
+        print(i)
 
